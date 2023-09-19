@@ -1,5 +1,6 @@
 import React from 'react';
 import themeColor from '../../styles/themeColor'
+import myPhoto from '../../images/JPascual007Portrait.jpg';
 const size = 220;
 
 const styles = {
@@ -12,9 +13,9 @@ const styles = {
 };
 
 const my = {
-    photo: "../images/JPascual007Portrait.jpg",
+    photo: "./images/JPascual007Portrait.jpg",
     alt: 'Portrait of Jonathan Pascual',
-    bio: "Welcome to my Portfolio! I am currently continueing my education at University of California Irvinea for a full stack web development bootcamp. My goal is to develop my knowledge and skills to create visually appealing websites.",
+    bio: "Welcome to my Portfolio! I am currently continuing my education at University of California Irvine for a full stack web development bootcamp. My goal is to develop my knowledge and skills to create visually appealing websites.",
 };
 
 const About = () => {
@@ -24,8 +25,8 @@ const About = () => {
             <div class={styles.avatarContainer}>
                 <img 
                     class={styles.avatar}
-                    src={my.photo}
-                    alt={my.alt}
+                    src={myPhoto}
+                    alt="My Photo"
                     width={size}
                     height={size}
                 />

@@ -1,6 +1,12 @@
 import React  from 'react';
 import Project from './Project';
 import themeColor from '../../styles/themeColor'
+import horiseonImage from '../../images/Horiseon.png';
+import PasswordGenerator from '../../images/PasswordGenerator.png';
+import ExpressNoteTaker from '../../images/ExpressNoteTaker.png';
+import DadGifs from '../../images/DadGifs.png';
+import WorkoutForum from '../../images/WorkoutForum.png';
+import HikeSeekSupplies from '../../images/HikeSeekSupplies.png';
 
 const styles = {
     animation:"animate__animated animate__fadeIn",
@@ -14,14 +20,14 @@ const projects = [
         description: "HTML, CSS, and Git",
         link:"https://jpascual007.github.io/EDX-homework01/",
         repo: "https://github.com/JPascual007/EDX-homework01",
-        img:"./images/Horiseon.png",
+        img: horiseonImage,
         alt:"Screenshot of Horiseon Landing Page",
     },{
         name: "Password Generator",
         description: "Random Password Generator #JS",
         link:'https://jpascual007.github.io/EDX-homework03/',
         repo:'https://github.com/JPascual007/EDX-homework03',
-        img:"./images/PasswordGenerator.png",
+        img: PasswordGenerator,
         alt:"Screenshot of Password Generator Landing Page",
         
     },{
@@ -29,28 +35,28 @@ const projects = [
         description: "#JS #Express",
         link:'https://warm-bayou-95001-9dd535feacee.herokuapp.com/notes',
         repo:'https://github.com/JPascual007/EDX-homework11',
-        img:"./images/ExpressNoteTaker.png",
+        img: ExpressNoteTaker,
         alt:"Screenshot of Express Note Taker",
     },{
         name: "Dad Gifs (First Group Project)",
         description: "#HTML #CSS #JS #API",
         link:'https://19dbo91.github.io/dad-gifs/',
         repo:'https://github.com/19dbo91/dad-gifs',
-        img:"./images/DadGifs.png",
+        img: DadGifs,
         alt:"Screenshot of Dad Gifs Homepage",
     },{
         name: "Workout Forum (Second Group Project)",
         description: " #HTML #CSS #JS #LOCALSTORAGE",
         link:"https://secret-headland-44009-a7fef38932b2.herokuapp.com/",
         repo:"https://github.com/HaydenFelfe/workout_forum",
-        img:"./images/WorkoutForum.png",
+        img: WorkoutForum,
         alt:"Screenshot of Workout Forum Homepage",
     },{
         name: "Hike & Seek Supplies (Third Group Project)",
         description: "#React",
         link:"https://github.com/HaydenFelfe/Hike-Seek-Supplies",
         repo:"https://github.com/HaydenFelfe/Hike-Seek-Supplies",
-        img:"./images/Hike&SeekSupplies.png",
+        img: HikeSeekSupplies,
         alt:"Screenshot of H&S Supplies",
     },
 ];
