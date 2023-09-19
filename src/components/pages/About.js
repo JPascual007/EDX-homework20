@@ -4,6 +4,7 @@ import myPhoto from '../../images/JPascual007Portrait.jpg';
 const size = 220;
 
 const styles = {
+    container: `flex flex-col items-center justify-center h-[100vh]`,
     animation:"animate__animated animate__fadeIn",
     heading: `mt-3 mx-40 p-4  text-center text-3xl text-[${themeColor.main}] font-bold bg-[${themeColor.secondary}] rounded-lg`,
     body: `p-10 m-5 rounded-md text-[${themeColor.main}] bg-[${themeColor.secondary}]`,

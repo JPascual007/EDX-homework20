@@ -1,6 +1,3 @@
-/*
-    * A single `Project` component that will be used multiple times in the Portfolio section
-*/
 import React from 'react';
 import themeColor from '../../styles/themeColor'
 
@@ -15,9 +12,7 @@ const styles = {
     projectBlurb:`grid grid-cols-2`,
     iconGH: `opacity-25`,
     //description: `col-span-2 font-bold text-[${themeColor.accent}]`
-
 }
-
 
 const Project = ({name, description, link, repo, img, alt}) =>{
     return (
